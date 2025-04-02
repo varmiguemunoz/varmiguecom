@@ -1,0 +1,25 @@
+{
+    "site": {
+      "title": "varmiguemunoz",
+      "base_url": "https://www.varmiguemunoz.dev/",
+      "base_path": "/",
+      "favicon": "/favicon.png",
+      "logo": "/profile-2024.jpeg",
+      "lang": "en",
+      "description": "Welcome to my personal blog",
+      "pageSize": 3
+    },
+    "features": {
+      "youtube": true,
+      "dark_mode": true
+    },
+    "metadata": {
+      "meta_author": "Miguel Angel Munoz",
+      "meta_description": "Mid. Full stack Engineer | Java, Javascript, Devops"
+    },
+    "author": {
+      "name": "Miguel Angel Munoz",
+      "avatar": "/profile-business-nobackground.png",
+      "bio": "I am a Software Engineering student 🎓. Passionate about technology, enterprise and the constant search for knowledge."
+    }
+  }
