@@ -1,0 +1,72 @@
+{
+  "config": [
+    {
+      "maintitle": "Social Networks",
+      "data": [
+        {
+          "title": "varmiguemunoz pro",
+          "description": "Learn how to build real value with digital products",
+          "icon": "hola mudno",
+             "url": ""
+        },
+        {
+            "title": "Kick",
+            "description": "Join our live sessions",
+            "icon": "hola mudno",
+               "url": ""
+          },
+          {
+            "title": "Youtube",
+            "description": "Explore tutorials and learn programming tips and tricks",
+            "icon": "hola mudno",
+               "url": ""
+          }
+      ]
+    },
+    {
+      "maintitle": "Portfolio",
+      "data": [
+        {
+          "title": "varmiguemunoz",
+          "description": "Explore my website and check my projects",
+          "icon": "holaaa",
+          "url": ""
+        },
+        {
+            "title": "varmiguemunoz PDF",
+            "description": "Brands I have collaborated with",
+            "icon": "holaaa",
+               "url": ""
+          }
+      ]
+    },
+    {
+        "maintitle": "My Companies",
+        "data": [
+          {
+            "title": "Bloomify Tech S.A.S",
+            "description": "We centralize information and connect all points of contact",
+            "icon": "holaaa",
+               "url": ""
+          },
+          {
+            "title": "Bloomilite LLC",
+            "description": "We scale business with software and technology",
+            "icon": "holaaa",
+               "url": ""
+          }
+        ]
+      },
+    {
+        "maintitle": "Contact Me",
+        "data": [
+          {
+            "title": "Email",
+            "description": "miguelmunoz@bloomify.tech",
+            "icon": "holaaa",
+               "url": ""
+          }
+        ]
+      }
+  ]
+}

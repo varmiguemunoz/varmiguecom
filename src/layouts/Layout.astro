@@ -6,6 +6,9 @@ import config from '@/config/config.json';
 import { ViewTransitions } from 'astro:transitions';
 
 import '@/styles/index.css';
+import NavBar from '@/components/NavBar.astro';
+import Footer from '@/components/Footer.astro';
+import Whatsapp from '@/components/whatsapp.astro';
 
 export interface Props {
   title?: string;
@@ -69,9 +72,21 @@ const ogImage = createOgImage({
     <link rel="manifest" href="/manifest.webmanifest" />
     <ViewTransitions />
   </head>
-  <body class="bg-white dark:bg-zinc-900/95">
-    <main class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+  <body
+    class="w-full bg-transparent bg-cover bg-no-repeat"
+    style={{
+      backgroundImage: `url('https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743655115/banner-logo-background_3_anpl4s.png')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    }}
+  >
+    <NavBar />
+    <main class="mx-auto max-w-screen-sm px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <slot />
     </main>
+    <Whatsapp url="https://api.whatsapp.com/send?phone=573023278057" />
+
+    <Footer />
   </body>
 </html>

@@ -1,0 +1,44 @@
+---
+import instagram from '@/assets/instagram.svg';
+import youtube from '@/assets/youtube.svg';
+import whatsapp from '@/assets/whatsapp.svg';
+import linkedin from '@/assets/linkedin.svg';
+import github from '@/assets/github.svg';
+---
+
+<div class="flex items-center gap-10">
+  <img
+    src="https://res.cloudinary.com/dy7kvvzgj/image/upload/v1732514574/varmiguemunoz-business_uz7lhp.jpg"
+    alt="miguel-icon"
+    class="h-40 w-40 rounded-md object-cover"
+    loading="lazy"
+  />
+  <div class="flex flex-col gap-5">
+    <div class="flex flex-col gap-1">
+      <h1 class="text-2xl font-bold text-white">Miguel Angel Jaramillo Muñoz</h1>
+      <span class="text-md font-normal text-white/70">@varmiguemunoz</span>
+    </div>
+
+    <div class="justify-left flex items-center gap-5">
+      <a href="">
+        <img src={instagram.src} alt="icon" class="h-8 w-8" id="banner-image" />
+      </a>
+
+      <a href="">
+        <img src={linkedin.src} alt="icon" class="h-8 w-8" id="banner-image" />
+      </a>
+
+      <a href="">
+        <img src={github.src} alt="icon" class="h-8 w-8" id="banner-image" />
+      </a>
+
+      <a href="">
+        <img src={whatsapp.src} alt="icon" class="h-8 w-8" id="banner-image" />
+      </a>
+
+      <a href="">
+        <img src={youtube.src} alt="icon" class="h-8 w-8" id="banner-image" />
+      </a>
+    </div>
+  </div>
+</div>
