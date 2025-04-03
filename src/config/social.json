@@ -13,7 +13,13 @@
             "title": "Youtube",
             "description": "Explore tutorials and learn programming tips and tricks",
             "icon": "/icons/youtube-brands.svg",
-            "url": ""
+            "url": "https://www.youtube.com/@varmiguemunoz"
+          },
+          {
+            "title": "Tiktok",
+            "description": "Explore shorts tutorials and learn programming tips",
+            "icon": "/icons/tiktok-brands.svg",
+            "url": "https://www.tiktok.com/@varmiguemunoz"
           }
       ]
     },
@@ -24,13 +30,13 @@
           "title": "varmiguemunoz",
           "description": "Explore my website and check my projects",
           "icon": "/icons/earth-americas-solid.svg",
-          "url": ""
+          "url": "https://www.dev.varmiguemunoz.com"
         },
         {
             "title": "varmiguemunoz PDF",
             "description": "Brands I have collaborated with",
             "icon": "/icons/book-solid.svg",
-               "url": ""
+            "url": "/portfolio.pdf"
           }
       ]
     },

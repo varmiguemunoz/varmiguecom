@@ -8,7 +8,7 @@ import { ViewTransitions } from 'astro:transitions';
 import '@/styles/index.css';
 import NavBar from '@/components/NavBar.astro';
 import Footer from '@/components/Footer.astro';
-import Whatsapp from '@/components/whatsapp.astro';
+import Whatsapp from '@/components/Whatsapp.astro';
 
 export interface Props {
   title?: string;
@@ -17,10 +17,9 @@ export interface Props {
   image?: string;
   noindex?: boolean;
   canonical?: string;
-  blogpost?: boolean;
 }
 
-const { title, meta_title, description, noindex, blogpost } = Astro.props;
+const { title, meta_title, description, noindex } = Astro.props;
 
 const ogImage = createOgImage({
   title: meta_title ? meta_title : title ? title : config.site.title,
@@ -67,15 +66,12 @@ const ogImage = createOgImage({
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <script is:inline src="/registerSW.js"></script>
-
-    <link rel="manifest" href="/manifest.webmanifest" />
     <ViewTransitions />
   </head>
   <body
     class="w-full bg-transparent bg-cover bg-no-repeat"
     style={{
-      backgroundImage: `url('https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743655115/banner-logo-background_3_anpl4s.png')`,
+      backgroundImage: `url('https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743714364/body-background-gradient_fuxjbk.png')`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',

@@ -1,25 +1,20 @@
 {
     "site": {
-      "title": "varmiguemunoz",
-      "base_url": "https://www.varmiguemunoz.dev/",
+      "title": "varmiguemunoz | Mid Full stack engineer & Creating seamless omnichannel experiences",
+      "base_url": "https://www.varmiguemunoz.com/",
       "base_path": "/",
-      "favicon": "/favicon.png",
-      "logo": "/profile-2024.jpeg",
+      "favicon": "https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743714544/Avatar_Blank_Miguel_Munoz_g26caj.png",
+      "logo": "https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743714544/Avatar_Blank_Miguel_Munoz_g26caj.png",
       "lang": "en",
-      "description": "Welcome to my personal blog",
-      "pageSize": 3
-    },
-    "features": {
-      "youtube": true,
-      "dark_mode": true
+      "description": "I am a software engineer passionate about technology, entrepreneurship, innovation and creating digital products that generate a real impact in the market."
     },
     "metadata": {
-      "meta_author": "Miguel Angel Munoz",
-      "meta_description": "Mid. Full stack Engineer | Java, Javascript, Devops"
+      "meta_author": "varmiguemunoz | Mid Full stack engineer & Creating seamless omnichannel experiences",
+      "meta_description": "I am a software engineer passionate about technology, entrepreneurship, innovation and creating digital products that generate a real impact in the market."
     },
     "author": {
-      "name": "Miguel Angel Munoz",
-      "avatar": "/profile-business-nobackground.png",
-      "bio": "I am a Software Engineering student 🎓. Passionate about technology, enterprise and the constant search for knowledge."
+      "name": "Miguel Angel Jaramillo Muñoz",
+      "avatar": "https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743714544/Avatar_Blank_Miguel_Munoz_g26caj.png",
+      "bio": "I am a software engineer passionate about technology, entrepreneurship, innovation and creating digital products that generate a real impact in the market."
     }
   }
