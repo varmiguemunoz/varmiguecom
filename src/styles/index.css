@@ -37,11 +37,32 @@
   font-style: normal;
 }
 
+/* Oculta la barra de desplazamiento en navegadores como Chrome, Edge y Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Estilo de la pista (fondo de la barra) */
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Negro oscuro */
+  padding-left:14px;
+}
+
+/* Estilo del "thumb" (la parte que se mueve) */
+::-webkit-scrollbar-thumb {
+  background: #5a5a5a; /* Gris oscuro */
+  border-radius: 10px;
+}
+
+/* Opcional: cambia el color al pasar el cursor */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
 body {
   font-family: 'Graphik', sans-serif;
   font-weight: 400;
 }
-
 
 #banner-image {
   mask-image: linear-gradient(black 80%, transparent)
