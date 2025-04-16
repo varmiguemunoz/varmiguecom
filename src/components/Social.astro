@@ -1,17 +1,22 @@
 ---
+import { Image } from 'astro:assets';
+
 import instagram from '@/assets/instagram.svg';
-import youtube from '@/assets/youtube.svg';
 import whatsapp from '@/assets/whatsapp.svg';
 import linkedin from '@/assets/linkedin.svg';
 import github from '@/assets/github.svg';
 ---
 
 <div class="flex items-center gap-10">
-  <img
-    src="https://res.cloudinary.com/dy7kvvzgj/image/upload/v1732514574/varmiguemunoz-business_uz7lhp.jpg"
+  <Image
+    src={'https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743714544/Avatar_Blank_Miguel_Munoz_g26caj.png'}
     alt="miguel-icon"
-    class="h-40 w-40 rounded-md object-cover"
+    class="h-60 w-40 cursor-pointer rounded-md object-cover transition-all hover:scale-110"
+    id={'banner-image'}
+    width={300}
+    height={300}
     loading="lazy"
+    quality={100}
   />
   <div class="flex flex-col gap-5">
     <div class="flex flex-col gap-1">
@@ -19,25 +24,21 @@ import github from '@/assets/github.svg';
       <span class="text-md font-normal text-white/70">@varmiguemunoz</span>
     </div>
 
-    <div class="justify-left flex items-center gap-5">
+    <div class="justify-left flex items-center gap-3">
       <a href="https://www.instagram.com/varmiguemunoz/">
-        <img src={instagram.src} alt="icon" class="h-8 w-8" id="banner-image" />
+        <img src={instagram.src} alt="icon" class="h-6 w-8" id="banner-image" />
       </a>
 
       <a href="https://www.linkedin.com/in/varmiguemunoz/">
-        <img src={linkedin.src} alt="icon" class="h-8 w-8" id="banner-image" />
+        <img src={linkedin.src} alt="icon" class="h-6 w-8" id="banner-image" />
       </a>
 
       <a href="https://github.com/varmiguemunoz">
-        <img src={github.src} alt="icon" class="h-8 w-8" id="banner-image" />
+        <img src={github.src} alt="icon" class="h-6 w-8" id="banner-image" />
       </a>
 
       <a href="https://api.whatsapp.com/send?phone=573023278057">
-        <img src={whatsapp.src} alt="icon" class="h-8 w-8" id="banner-image" />
-      </a>
-
-      <a href="https://www.youtube.com/@varmiguemunoz">
-        <img src={youtube.src} alt="icon" class="h-8 w-8" id="banner-image" />
+        <img src={whatsapp.src} alt="icon" class="h-6 w-8" id="banner-image" />
       </a>
     </div>
   </div>

@@ -9,7 +9,7 @@ interface Props {
 const { title, description, icon, url } = Astro.props as Props;
 ---
 
-<a href={url} class="flex items-center gap-5 rounded-sm bg-black/50 px-5 py-2 transition hover:scale-110">
+<a href={url} class="flex items-center gap-5 rounded-sm bg-black/50 px-5 py-2">
   <img src={icon} alt="icon" class="h-6 w-6" />
   <div>
     <p class="text-lg font-normal text-white">{title}</p>

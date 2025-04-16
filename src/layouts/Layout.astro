@@ -22,8 +22,8 @@ export interface Props {
 const { title, meta_title, description, noindex } = Astro.props;
 
 const ogImage = createOgImage({
-  title: "varmiguemunoz",
-  meta: "Mid Fullstack Developer",
+  title: 'varmiguemunoz',
+  meta: 'Mid. Full Stack Engineer',
 });
 ---
 
@@ -68,15 +68,7 @@ const ogImage = createOgImage({
 
     <ViewTransitions />
   </head>
-  <body
-    class="w-full bg-transparent bg-cover bg-no-repeat"
-    style={{
-      backgroundImage: `url('https://res.cloudinary.com/dy7kvvzgj/image/upload/v1743714364/body-background-gradient_fuxjbk.png')`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-    }}
-  >
+  <body class="w-full bg-gray-900/90">
     <NavBar />
     <main class="mx-auto max-w-screen-sm px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <slot />

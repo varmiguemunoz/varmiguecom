@@ -3,12 +3,6 @@
     {
       "maintitle": "Social Networks",
       "data": [
-        {
-          "title": "varmiguemunoz pro",
-          "description": "Learn how to build real value with digital products",
-          "icon": "/icons/user-secret-solid.svg",
-          "url": "/soon"
-        },
           {
             "title": "Youtube",
             "description": "Explore tutorials and learn programming tips and tricks",
@@ -33,11 +27,17 @@
           "url": "https://www.dev.varmiguemunoz.com"
         },
         {
+          "title": "varmiguemunoz HV",
+          "description": "Get to know my resume",
+          "icon": "/icons/book-solid.svg",
+          "url": "/varmiguemunoz.pdf"
+        },
+        {
             "title": "varmiguemunoz PDF",
             "description": "Brands I have collaborated with",
             "icon": "/icons/book-solid.svg",
             "url": "/portfolio.pdf"
-          }
+        }
       ]
     },
     {
